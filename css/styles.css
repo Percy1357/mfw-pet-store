@@ -1,0 +1,109 @@
+/* 
+todo: 
+[] - get google fonts for satisfy and open sans 
+*key*
+*primary heading color #C9C983
+*primary heading font 'satisfy', open sans
+*main color #EEDDCD
+*/
+
+/*        NAVBAR section         */
+@import url(http://fonts.googleapis.com/css?family=Satisfy|Open+Sans:400,300,700);
+.logo {
+    width: 91px;
+}
+
+
+header h1 {
+    color: #C9C983;
+    font-family: 'Satisfy' , open-sans;
+    margin-top: 20px;
+}
+
+.nav-pills > li.active > a {
+    color: #5c43f5;
+    background-color: #EEDDCD
+}
+
+nav li {
+    font-size: 15px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+nav {
+    top:  20px;
+}
+
+.jumbotron {
+    background-image: url('../img/alt-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+.jumbotron h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #fff;
+}
+
+.featured {
+    margin-bottom: 60px;
+}
+
+.product {
+    background-color: #EEDDCD;
+    border-radius: 5%;
+    border: 5px solid rgb(252, 252, 252);
+}
+
+.img-box {
+    margin: 10px;
+    
+}
+
+.product botton {
+    margin-bottom: 10px;
+    background-color: rgb(252, 252, 252);
+    border: 1px solid #5c433f;
+}
+.product aside a footer{
+    background-color: #EEDDCD
+}
+
+.services a {
+    background-color: green;
+}
+
+footer {
+    padding-top: 20px;
+    max-height: 100%;
+}
+
+footer a {
+    color: #5C433F;
+}
+
+footer img {
+    height: 90px;
+}
+
+.contact_info {
+    padding: 15px 0 0 40px;
+    border-right: 1px solid #333;
+}
+.social {
+    padding-top: 15px;
+    margin: 10px 0 15px 0;
+    color: #333;
+}
+
+@media(max-width: 760px) {
+    -centered
+    -nav 
+    -social 
+    -aside 
+    
+}
